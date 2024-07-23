@@ -17,6 +17,7 @@ void write_color(std::ostream& out, const color& pixel_color){
     int gbyte = int(255.999 * g);
     int bbyte = int(255.999 * b);
 
+    // Write out the pixel color components
     out << rbyte << ' ' << gbyte << ' ' << bbyte << '\n';
 }
 
